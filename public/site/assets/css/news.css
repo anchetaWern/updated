@@ -1,0 +1,176 @@
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+a:focus, a:hover {
+    box-shadow: none;
+}
+
+a:active {
+    background: none;
+}
+
+.small-button {
+    font-size: .75em;
+}
+
+#settings-button {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    padding-left: 40px;
+    display: inline-block;
+}
+
+#news_sources_container h3 {
+    display: inline-block;
+}
+
+#mobile-settings-button {
+    float: right;
+}
+
+#sidebar {
+    width: 20%;
+    float: left;
+    background-color: #67B6DA;
+    position: fixed;
+    height: 100%;
+}
+
+#items-container {
+    width: 80%;
+    float: left;
+    position: relative;
+    margin-left: 20%;
+    background-color: #F7F7F7;
+}
+
+ul li {
+    list-style: none;
+}
+
+#sidebar h3 {
+    border-bottom: 3px solid;
+    padding: 0;
+    padding-left: 30px;
+}
+
+#types li {
+    padding: 10px 30px;
+}
+
+ul#types {
+    padding: 0;
+    font-size: 15px;
+}
+
+#types li a {
+    text-decoration: none;
+    color: #575757;
+}
+
+#items {
+    padding: 0 20px;
+}
+
+#items li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    display: inline-block;
+}
+
+#items li {
+    padding: 20px;
+}
+
+#items li:hover {
+    background-color: #DFDFDF;
+}
+
+.item-score {
+    font-weight: bold;
+    display: inline-block;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #ccc;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 10px;
+}
+
+.item-info {
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    color: #8A8A8A;
+    margin-top: 5px;
+}
+
+#news_sources_container {
+    display: none;
+}
+
+.category {
+    margin-bottom: 20px;
+}
+
+.sources {
+    margin-left: 20px;
+}
+
+.modal {
+    overflow: hidden;
+}
+
+
+
+@media screen and (max-width: 800px){
+
+    #sidebar {
+       display: none;
+    }
+
+    #items-container {
+        width: 100%;
+        position: absolute;
+        margin: 0;
+        top: 30px;
+        overflow: auto;
+    }
+
+    #news_sources_container {
+        display: block;
+        padding: 20px;
+        background-color: #67B6DA;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        height: 130px;
+        right: 0;
+    }
+
+    #news_sources {
+        display: block;
+    }
+
+    #settings {
+        padding: 10px;
+    }
+
+    .sources {
+        margin: 0;
+    }
+
+}

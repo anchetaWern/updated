@@ -1,0 +1,153 @@
+{  
+   "hn":{  
+      "title":"hn",
+      "sources":[  
+         "Hacker News"
+      ]
+   },
+   "curators":{  
+      "title":"curators",
+      "sources":[  
+         "Next Draft",
+         "Medium",
+         "Readability",
+         "Slashdot",
+         "Designer News",
+         "Longreads Tech",
+         "Pocket Hits",
+         "Upvoted Science and Technology",
+         "Upvoted News"
+      ]
+   },
+   "webdev":{  
+      "title":"webdev",
+      "sources":[  
+         "Versioning",
+         "HTML5Weekly",
+         "JavaScript Weekly",
+         "Node Weekly",
+         "PHP Weekly",
+         "Responsive Design Weekly",
+         "Web Development Reading List",
+         "Web Design Weekly",
+         "Hey Designer",
+         "Ember Weekly",
+         "Beyond Desktop",
+         "Sidebar.io",
+         "JavaScript Live",
+         "Cancel Bubble",
+         "Reddit Web Design",
+         "Reddit Webdev",
+         "WebRTC Weekly",
+         "Real-time Weekly",
+         "Full Web Weekly",
+         "SASS News",
+         "The Changelog",
+         "CSS Weekly",
+         "Web Audio Weekly",
+         "Echo JS"
+      ]
+   },
+   "programming":{  
+      "title":"programming",
+      "sources":[  
+         "Ruby Weekly",
+         "Status Code",
+         "Python Weekly",
+         "Pycoder's Weekly",
+         "Perl Weekly",
+         "Go-Lang Weekly",
+         "Reddit Programming",
+         ".Net Weekly",
+         "Scala Times",
+         "This Week in Rust",
+         "Clojure Gazette",
+         "Green Ruby News",
+         "Swift Weekly"
+      ]
+   },
+   "db":{  
+      "title":"db",
+      "sources":[  
+         "Database Weekly",
+         "Postgres Weekly",
+         "NoSQL Weekly",
+         "MySQL News",
+         "Big Data Weekly",
+         "Hadoop Weekly",
+         "Redis Watch",
+         "Redis Weekly"
+      ]
+   },
+   "tools":{  
+      "title":"tools",
+      "sources":[  
+         "WebTools Weekly",
+         "Stackshare"
+      ]
+   },
+   "mobile":{  
+      "title":"mobile",
+      "sources":[  
+         "Mobile Web Weekly",
+         "iOS Dev Weekly",
+         "Android Weekly"
+      ]
+   },
+   "gamedev":{  
+      "title":"gamedev",
+      "sources":[  
+         "Gamedev.js Weekly"
+      ]
+   },
+   "wordpress":{  
+      "title":"wordpress",
+      "sources":[  
+         "WPMail.me"
+      ]
+   },
+   "devops":{  
+      "title":"devops",
+      "sources":[  
+         "Web Operations Weekly",
+         "Docker Weekly"
+      ]
+   },
+   "design":{  
+      "title":"design",
+      "sources":[  
+         "UX Design Weekly",
+         "UX Weekly",
+         "Hacking UI",
+         "Product Design Weekly"
+      ]
+   },
+   "product":{  
+      "title":"product",
+      "sources":[  
+         "Makers Weekly",
+         "User Onboard",
+         "Software Lead Weekly",
+         "Product Hunt"
+      ]
+   },
+   "machine-learning":{  
+      "title":"machine-learning",
+      "sources":[  
+         "Machine Learning Newsletter",
+         "AI Weekly"
+      ]
+   },
+   "data-science":{  
+      "title":"data-science",
+      "sources":[  
+         "Data Science Weekly"
+      ]
+   },
+   "github":{  
+      "title":"github",
+      "sources":[  
+         "Github"
+      ]
+   }
+}

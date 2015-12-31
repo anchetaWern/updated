@@ -1,0 +1,472 @@
+[  
+   {  
+      "name":"hn",
+      "enabled":true,
+      "sources":[  
+         {  
+            "name":"Hacker News",
+            "route":"hn",
+            "enabled":false
+         }
+      ]
+   },
+   {  
+      "name":"curators",
+      "enabled":true,
+      "sources":[  
+         {  
+            "name":"Next Draft",
+            "route":"nextdraft",
+            "enabled":true
+         },
+         {  
+            "name":"Medium",
+            "route":"medium",
+            "enabled":true
+         },
+         {  
+            "name":"Readability",
+            "route":"readability",
+            "enabled":false
+         },
+         {  
+            "name":"Slashdot",
+            "route":"slashdot",
+            "enabled":false
+         },
+         {  
+            "name":"Designer News",
+            "route":"designernews",
+            "enabled":false
+         },
+         {  
+            "name":"Longreads Tech",
+            "route":"longreadstech",
+            "enabled":false
+         },
+         {  
+            "name":"Pocket Hits",
+            "route":"pockethits",
+            "enabled":false
+         },
+         {  
+            "name":"Upvoted Science and Technology",
+            "route":"upvotedscitech",
+            "enabled":false
+         },
+         {  
+            "name":"Upvoted News",
+            "route":"upvotednews",
+            "enabled":false
+         }
+      ]
+   },
+   {  
+      "name":"webdev",
+      "enabled":true,
+      "sources":[  
+       	 {  
+            "name":"Echo JS",
+            "route":"echojs",
+            "enabled":false
+         },
+         {  
+            "name":"Versioning",
+            "route":"versioning",
+            "enabled":true
+         },
+         {  
+            "name":"HTML5Weekly",
+            "route":"html5weekly",
+            "enabled":false
+         },
+         {  
+            "name":"JavaScript Weekly",
+            "route":"jsweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Node Weekly",
+            "route":"nodeweekly",
+            "enabled":false
+         },
+         {  
+            "name":"PHP Weekly",
+            "route":"phpweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Responsive Design Weekly",
+            "route":"rdweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Web Development Reading List",
+            "route":"wdrl",
+            "enabled":true
+         },
+         {  
+            "name":"Web Design Weekly",
+            "route":"wdweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Hey Designer",
+            "route":"heydesigner",
+            "enabled":false
+         },
+         {  
+            "name":"Ember Weekly",
+            "route":"emberweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Beyond Desktop",
+            "route":"beyonddesktop",
+            "enabled":false
+         },
+         {  
+            "name":"Sidebar.io",
+            "route":"sidebario",
+            "enabled":false
+         },
+         {  
+            "name":"JavaScript Live",
+            "route":"jslive",
+            "enabled":false
+         },
+         {  
+            "name":"Cancel Bubble",
+            "route":"cancelbubble",
+            "enabled":false
+         },
+         {  
+            "name":"Reddit Web Design",
+            "route":"redditwebdesign",
+            "enabled":false
+         },
+         {  
+            "name":"Reddit Webdev",
+            "route":"redditwebdev",
+            "enabled":false
+         },
+         {  
+            "name":"WebRTC Weekly",
+            "route":"webrtcweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Real-time Weekly",
+            "route":"realtimeweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Full Web Weekly",
+            "route":"fullwebweekly",
+            "enabled":true
+         },
+         {  
+            "name":"SASS News",
+            "route":"sassnews",
+            "enabled":false
+         },
+         {  
+            "name":"The Changelog",
+            "route":"thechangelog",
+            "enabled":true
+         },
+         {  
+            "name":"CSS Weekly",
+            "route":"cssweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Web Audio Weekly",
+            "route":"waw",
+            "enabled":false
+         }
+      ]
+   },
+   {  
+      "name":"programming",
+      "enabled":true,
+      "sources":[  
+         {  
+            "name":"Ruby Weekly",
+            "route":"rubyweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Status Code",
+            "route":"statuscode",
+            "enabled":false
+         },
+         {  
+            "name":"Python Weekly",
+            "route":"pythonweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Pycoder's Weekly",
+            "route":"pycodersweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Perl Weekly",
+            "route":"perlweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Go-Lang Weekly",
+            "route":"golangweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Reddit Programming",
+            "route":"redditprogramming",
+            "enabled":true
+         },
+         {  
+            "name":".Net Weekly",
+            "route":"dotnetweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Scala Times",
+            "route":"scalatimes",
+            "enabled":false
+         },
+         {  
+            "name":"This Week in Rust",
+            "route":"thisweekinrust",
+            "enabled":false
+         },
+         {  
+            "name":"Clojure Gazette",
+            "route":"clojuregazette",
+            "enabled":false
+         },
+         {  
+            "name":"Green Ruby News",
+            "route":"greenrubynews",
+            "enabled":false
+         },
+         {  
+            "name":"Swift Weekly",
+            "route":"swiftweekly",
+            "enabled":false
+         }
+      ]
+   },
+   {  
+      "name":"db",
+      "enabled":true,
+      "sources":[  
+         {  
+            "name":"Database Weekly",
+            "route":"dbweekly",
+            "enabled":true
+         },
+         {  
+            "name":"Postgres Weekly",
+            "route":"postgresweekly",
+            "enabled":false
+         },
+         {  
+            "name":"NoSQL Weekly",
+            "route":"nosqlweekly",
+            "enabled":false
+         },
+         {  
+            "name":"MySQL News",
+            "route":"mysqlnews",
+            "enabled":true
+         },
+         {  
+            "name":"Big Data Weekly",
+            "route":"bigdataweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Hadoop Weekly",
+            "route":"hadoopweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Redis Watch",
+            "route":"rediswatch",
+            "enabled":false
+         },
+         {  
+            "name":"Redis Weekly",
+            "route":"redisweekly",
+            "enabled":false
+         }
+      ]
+   },
+   {  
+      "name":"tools",
+      "enabled":true,
+      "sources":[  
+         {  
+            "name":"WebTools Weekly",
+            "route":"webtoolsweekly",
+            "enabled":true
+         },
+         {  
+            "name":"Stackshare",
+            "route":"stackshare",
+            "enabled":false
+         }
+      ]
+   },
+   {  
+      "name":"mobile",
+      "enabled":true,
+      "sources":[  
+         {  
+            "name":"Mobile Web Weekly",
+            "route":"mobilewebweekly",
+            "enabled":true
+         },
+         {  
+            "name":"iOS Dev Weekly",
+            "route":"iosdevweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Android Weekly",
+            "route":"androidweekly",
+            "enabled":false
+         }
+      ]
+   },
+   {  
+      "name":"gamedev",
+      "enabled":true,
+      "sources":[  
+         {  
+            "name":"Gamedev.js Weekly",
+            "route":"gamedevjsweekly",
+            "enabled":false
+         }
+      ]
+   },
+   {  
+      "name":"wordpress",
+      "enabled":true,
+      "sources":[  
+         {  
+            "name":"WPMail.me",
+            "route":"wpmailme",
+            "enabled":true
+         }
+      ]
+   },
+   {  
+      "name":"devops",
+      "enabled":true,
+      "sources":[  
+         {  
+            "name":"Web Operations Weekly",
+            "route":"webopsweekly",
+            "enabled":true
+         },
+		{  
+		    "name":"Docker Weekly",
+		    "route":"dockerweekly",
+		    "enabled":false
+		 }
+      ]
+   },
+   {  
+      "name":"design",
+      "enabled":true,
+      "sources":[  
+         {  
+            "name":"UX Design Weekly",
+            "route":"uxdesignweekly",
+            "enabled":true
+         },
+         {  
+            "name":"UX Weekly",
+            "route":"uxweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Hacking UI",
+            "route":"hackingui",
+            "enabled":false
+         },
+         {  
+            "name":"Product Design Weekly",
+            "route":"productdesignweekly",
+            "enabled":false
+         }
+      ]
+   },
+   {  
+      "name":"product",
+      "enabled":true,
+      "sources":[  
+         {  
+            "name":"Makers Weekly",
+            "route":"makersweekly",
+            "enabled":false
+         },
+         {  
+            "name":"User Onboard",
+            "route":"useronboard",
+            "enabled":false
+         },
+         {  
+            "name":"Software Lead Weekly",
+            "route":"softwareleadweekly",
+            "enabled":false
+         },
+         {  
+            "name":"Product Hunt",
+            "route":"producthunt",
+            "enabled":true
+         }
+      ]
+   },
+   {  
+      "name":"machine-learning",
+      "enabled":true,
+      "sources":[  
+         {  
+            "name":"Machine Learning Newsletter",
+            "route":"machinelearningnewsletter",
+            "enabled":true
+         },
+         {  
+            "name":"AI Weekly",
+            "route":"aiweekly",
+            "enabled":true
+         }
+      ]
+   },
+   {  
+      "name":"data-science",
+      "enabled":true,
+      "sources":[  
+         {  
+            "name":"Data Science Weekly",
+            "route":"datascienceweekly",
+            "enabled":true
+         }
+      ]
+   },
+   {  
+      "name":"github",
+      "enabled":true,
+      "sources":[  
+         {  
+            "name":"Github",
+            "route":"github",
+            "enabled":true
+         }
+      ]
+   }
+]

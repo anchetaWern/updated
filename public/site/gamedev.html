@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Wern Ancheta">
+	<meta name="keywords" content="news,web-development,programming,design">
+	<meta name="description" content="Your developer news. All in one place.">
+
+       
+	<meta property="og:title" content="UpdatedApp">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="/assets/img/icon.png">
+	<meta property="og:url" content="http://updatedapp.github.io">
+	<meta property="og:description" content="Your developer news. All in one place.">
+
+	    
+	<meta name="twitter:card" content="Your developer news. All in one place.">
+	<meta name="twitter:title" content="UpdatedApp">
+	<meta name="twitter:description" content="Your developer news. All in one place.">
+	<meta name="twitter:image" content="/assets/img/android-icon-72x72.png">
+
+	<title>UpdatedApp</title>
+	<link rel="stylesheet" href="/assets/picnic/releases/picnic.min.css">
+	<link rel="stylesheet" href="/assets/css/news.css">
+	
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+
+
+</head>
+<body>
+	
+<div id="news_sources_container">
+	<h3>UpdatedApp</h3>
+	<a href="/settings" id="mobile-settings-button" class="button small-button">Settings</a>
+	<select name="news_sources" id="news_sources" class="hidden">
+				<option value="/hn" >hn</option>
+				<option value="/curators" >curators</option>
+				<option value="/webdev" >webdev</option>
+				<option value="/programming" >programming</option>
+				<option value="/db" >db</option>
+				<option value="/tools" >tools</option>
+				<option value="/mobile" >mobile</option>
+				<option value="/gamedev" selected>gamedev</option>
+				<option value="/wordpress" >wordpress</option>
+				<option value="/devops" >devops</option>
+				<option value="/design" >design</option>
+				<option value="/product" >product</option>
+				<option value="/machine-learning" >machine-learning</option>
+				<option value="/data-science" >data-science</option>
+				<option value="/github" >github</option>
+			</select>
+</div>
+
+<div id="sidebar">
+	<h3>UpdatedApp</h3>
+	<ul id="types">
+				<li>
+			<a href="/hn">hn</a>
+		</li>
+				<li>
+			<a href="/curators">curators</a>
+		</li>
+				<li>
+			<a href="/webdev">webdev</a>
+		</li>
+				<li>
+			<a href="/programming">programming</a>
+		</li>
+				<li>
+			<a href="/db">db</a>
+		</li>
+				<li>
+			<a href="/tools">tools</a>
+		</li>
+				<li>
+			<a href="/mobile">mobile</a>
+		</li>
+				<li>
+			<a href="/gamedev">gamedev</a>
+		</li>
+				<li>
+			<a href="/wordpress">wordpress</a>
+		</li>
+				<li>
+			<a href="/devops">devops</a>
+		</li>
+				<li>
+			<a href="/design">design</a>
+		</li>
+				<li>
+			<a href="/product">product</a>
+		</li>
+				<li>
+			<a href="/machine-learning">machine-learning</a>
+		</li>
+				<li>
+			<a href="/data-science">data-science</a>
+		</li>
+				<li>
+			<a href="/github">github</a>
+		</li>
+			</ul>
+</div>
+
+<div id="items-container">
+	<h1>gamedev</h1>
+	<a href="/settings" id="settings-button" class="button small-button">Settings</a>
+	<ul id="items" class="hidden">
+		
+	</ul>
+</div>
+
+
+<script id="categories-template" type="text/x-handlebars-template">
+	{{#each categories}}
+	<li><a href="/{{route}}">{{name}}</a></li>
+	{{/each}}
+</script><script id="categories-mobile-template" type="text/x-handlebars-template">
+	{{#each categories}}
+	<option value="/{{route}}">{{name}}</option>
+	{{/each}}
+</script><script id="items-template" type="text/x-handlebars-template">
+	{{#each items}}
+	<li class="item">
+		<a href="{{url}}">
+			<span class="item-title">{{title}}</span>
+			<span class="item-info">{{source}}</span>
+		</a>
+	</li>	
+	{{/each}}
+</script>
+	<script src="/assets/jquery/dist/jquery.min.js"></script>
+	
+	<script src="/assets/store.js/store.min.js"></script>
+	<script src="/assets/lodash/lodash.min.js"></script>
+	<script src="/assets/handlebars/handlebars.min.js"></script>
+
+	<script src="/assets/js/news.js"></script>
+	</body>
+</html>
